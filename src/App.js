@@ -8,7 +8,6 @@ import Shop from './components/shop/shop';
 
 function App() {
   const itemsInCart = useSelector((state) => state.vois.itemsInCart)
-  console.log(itemsInCart)
 
   return (
     <div className="App" style={{ 
