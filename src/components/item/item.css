@@ -1,0 +1,72 @@
+.item {
+    min-width: 200px;
+    width: 20%;
+    max-width: 400px;
+    text-align: start;
+    position: relative;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 15px;
+}
+
+.pic {
+    padding-bottom: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 15px 0;
+}
+
+p {
+    margin: .5em 0;
+}
+
+.tooltip {
+    background-image: url(../../assets/tooltip-static.svg);
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.tooltip:hover {
+    background-image: url(../../assets/tooltip-hover.svg);
+}
+
+.item1 {
+    background-image: url(../../assets/item1.png);
+}
+
+.item2 {
+    background-image: url(../../assets/item2.png);
+}
+
+.item3 {
+    background-image: url(../../assets/item3.png);
+}
+
+.item4 {
+    background-image: url(../../assets/item4.png);
+}
+
+.item5 {
+    background-image: url(../../assets/item5.png);
+}
+
+.item6 {
+    background-image: url(../../assets/item6.png);
+}
+
+.item7 {
+    background-image: url(../../assets/item7.png);
+}
+
+.item8 {
+    background-image: url(../../assets/item8.png);
+}

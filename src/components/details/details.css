@@ -1,0 +1,43 @@
+
+.details {
+    background-color: #fdf1d7;
+    color: #9c8f86;
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 400px;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.details .pic {
+    width: 200px;
+    height: 200px;
+    background-position: top;
+    padding-bottom: 0;
+}
+
+.tooltip:hover .details {
+    display: inline-flex;
+    z-index: 10;
+}
+
+h5 {
+    color: #261c2f;
+    margin: 0.5em;
+    font-size: 14px;
+}
+
+.details div {
+    width: 100%;
+    display: inline-block;
+}
+
+.details div p:first-child {
+    width: 25%;
+}
+
+.details div p {
+    width: 75%;
+    display: inline-block;
+}

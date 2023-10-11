@@ -1,0 +1,16 @@
+.header {
+    background-color: #233239;
+    position: relative;
+    text-transform: capitalize;
+    height: 1em;
+    padding: 1em 0;
+}
+
+h4 {
+    margin: 0;
+    color: white;
+}
+
+.cart {
+    position: absolute;
+}

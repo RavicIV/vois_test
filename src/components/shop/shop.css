@@ -1,0 +1,16 @@
+.shop {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    white-space: pre-line;
+}
+
+.shop .container {
+    display: flex;
+    gap: 10px 20px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}

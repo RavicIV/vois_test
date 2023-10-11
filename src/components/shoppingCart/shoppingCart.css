@@ -1,0 +1,48 @@
+.shoppingCart {
+    background-color: white;
+    color: black;
+    position: absolute;
+    width: 310px;
+    top: 52px;
+    right: 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    z-index: 2;
+    text-align: start;
+    text-transform: none;
+}
+
+.shoppingCart:before {
+    content: "\A";
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+    position: absolute;
+    left: 187px;
+    top: -10px;
+}
+
+table {
+    width: 100%;
+    text-align: right;
+    color: #919095;
+    padding-bottom: 20px;
+}
+
+table tfoot,
+table thead {
+    color: #3b4648;
+}
+
+table th:first-of-type,
+table td:first-of-type {
+    text-align: left;
+}
+
+table tfoot td {
+    border-top: 1px solid #919095;
+}
+table tfoot {
+    font-weight: bold;
+}
