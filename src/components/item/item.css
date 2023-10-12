@@ -38,7 +38,7 @@ p {
 .tooltip:hover {
     background-image: url(../../assets/tooltip-hover.svg);
 }
-
+ /*i know this is wrong and ugly start*/
 .item1 {
     background-image: url(../../assets/item1.png);
 }
@@ -69,4 +69,27 @@ p {
 
 .item8 {
     background-image: url(../../assets/item8.png);
+}
+/*i know this is wrong and ugly end*/
+
+@media screen and (max-width: 620px) {
+    .details{
+        left: -280px;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .item:nth-of-type(even) .details {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 1249px) {
+    .item:nth-of-type(3n+0) .details {
+        right: 0;
+    }
+}
+
+.item:nth-of-type(4n+0) .details {
+    right: 0;
 }
